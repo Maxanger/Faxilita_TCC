@@ -1,0 +1,96 @@
+
+  .fieldset_servico{
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: brown;
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .servico{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .article{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    margin: 15px;
+    padding: 1px;
+    border-radius: 5px;;
+  }
+  
+  .servico label{
+    padding-bottom: 15px;
+    font-size: 22px;
+    color: black;
+    margin-top: -50px;
+  }
+
+  .servico a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    border-radius: 3px;
+    transition: all 0.5s;
+  }
+  
+  .servico a:hover{
+    background-color: brown;
+    color: white;
+  }
+
+  .fieldset_servico article p{
+    color: cornsilk;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    
+  }
+
+  .servico span{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 22px;
+    outline: none;
+    padding: -1px;
+    transition: all 0.5s;
+  }
+
+  .servico button{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 22px;
+    outline: none;
+    padding: 2px;
+    transition: all 0.5s;
+  }
+
+  .article_servico h3{
+    color:black
+  }
+  .servico button:hover{
+    background-color: brown;
+    color: white;
+  }

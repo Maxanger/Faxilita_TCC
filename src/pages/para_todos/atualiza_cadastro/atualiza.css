@@ -1,0 +1,45 @@
+.form_atualiza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+.form_atualiza label{
+    font-size: 25px;
+}
+
+.form_atualiza input{
+    height: 25px;
+}
+.form_atualiza button{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    outline: none;
+    padding: 12px;
+    transition: all 0.5s;
+}
+
+.form_atualiza button:hover{
+    background-color: brown;
+    color: #FFF;
+}
+
+.fieldset_atualiza{
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: brown;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

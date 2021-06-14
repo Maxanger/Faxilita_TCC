@@ -1,0 +1,33 @@
+.recupera_senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+.recupera_senha label{
+    font-size: 25px;
+}
+
+.recupera_senha input{
+    height: 25px;
+}
+.recupera_senha button{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    outline: none;
+    padding: 12px;
+    transition: all 0.5s;
+}
+
+.recupera_senha button:hover{
+    background-color: brown;
+    color: #FFF;
+}

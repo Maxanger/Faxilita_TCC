@@ -1,0 +1,198 @@
+.lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .lista{
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lista article{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;;
+  }
+  
+  .lista strong{
+    padding-bottom: 15px;
+    font-size: 22px;
+    color: cornsilk;
+  }
+  
+  
+  .lista article p{
+    color: cornsilk;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    
+  }
+
+  .lista label{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 22px;
+    outline: none;
+    padding: 2px;
+    transition: all 0.5s;
+  }
+
+  .lista button{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 22px;
+    outline: none;
+    padding: 2px;
+    transition: all 0.5s;
+  }
+
+  .lista button:hover{
+    color: brown;
+  }
+  table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+
+  .fieldset_infoconfirm{
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: brown;
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .lista_ace{
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fieldset article{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    margin: 15px;
+    padding: 1px;
+    border-radius: 5px;;
+  }
+  
+  .lista_ace label{
+    padding-bottom: 15px;
+    font-size: 22px;
+    color: black;
+    margin-top: -50px;
+  }
+
+  .lista_ace a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    border-radius: 3px;
+    transition: all 0.5s;
+  }
+  
+  .lista_ace a:hover{
+    background-color: brown;
+    color: white;
+  }
+
+  .fieldset article p{
+    color: cornsilk;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    
+  }
+
+  .lista_ace span{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 22px;
+    outline: none;
+    padding: -1px;
+    transition: all 0.5s;
+  }
+
+  .lista_ace button{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 22px;
+    outline: none;
+    padding: 2px;
+    transition: all 0.5s;
+  }
+
+  .lista_ace button:hover{
+    background-color: brown;
+    color: white;
+  }
+
+  .lista_ace input{
+    font-size: 22px;
+  }
+
+
+  .fieldset_confirm{
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: brown;
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

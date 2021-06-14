@@ -1,0 +1,43 @@
+.form_servico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+.form_servico label{
+    font-size: 25px;
+}
+
+.form_servico input{
+    height: 25px;
+}
+.form_servico button{
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    outline: none;
+    padding: 12px;
+    transition: all 0.5s;
+}
+
+.form_servico button:hover{
+    background-color: brown;
+    color: #FFF;
+}
+
+.fieldset_servico{
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: brown;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

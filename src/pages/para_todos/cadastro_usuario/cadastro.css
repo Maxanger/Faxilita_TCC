@@ -1,0 +1,31 @@
+.form_cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+.form_cadastro label{
+    font-size: 25px;
+}
+
+.form_cadastro input{
+    height: 25px;
+}
+.form_cadastro button{
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    outline: none;
+    padding: 12px;
+    transition: all 0.5s;
+}
+
+.form_cadastro button:hover{
+    background-color: brown;
+    color: #FFF;
+}
