@@ -60,31 +60,31 @@ export default function MinhaConta()
                 </div>
             :
                 <div className="conta">
-                {info.map((lista) => {
+                
                     return(
                         <fieldset className='fieldset_conta'>
                             
-                            <article className='article_conta' key={lista.id}>
+                            <article className='article_conta'>
                                 <h3>Informações da Conta:</h3>
                                 <label>Nome: </label>
-                                <span>{`${lista.nome} ${lista.sobrenome}`}</span>
+                                <span>{`${info.nome} ${info.sobrenome}`}</span>
                                 <br/><br/>
                                 <label>Endereço: </label>
-                                <span>{lista.endereco}</span>
+                                <span>{info.endereco}</span>
                                 <br/><br/>
                                 <label>CPF: </label>
-                                <span>{lista.cpf}</span>
+                                <span>{info.cpf}</span>
                                 <br/><br/>
                                 <label>Data de Nascimento: </label>
-                                <input type='date' value={lista.nascimento} disabled='' onChange={(e)=>{setNasc(e.target.value)}}/>
+                                <input type='date' value={info.nascimento} disabled='' onChange={(e)=>{setNasc(e.target.value)}}/>
                                 <br/><br/>
                                 <label>Email: </label>
-                                <span>{lista.id}</span>
+                                <span>{info.id}</span>
                             </article>
                             <br/><br/>
                         </fieldset>       
                     )
-                })}
+                
                 </div>
             } 
         </div>
