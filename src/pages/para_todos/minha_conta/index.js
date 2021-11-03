@@ -22,6 +22,7 @@ export default function MinhaConta()
             });
         }
         checaLogin();
+        return(() => {})
     }, [])
 
     useEffect(()=> {
@@ -49,6 +50,7 @@ export default function MinhaConta()
             })
         }
         loadInfo();
+        return(() => {})
     }, [])
     return(
         <div >
